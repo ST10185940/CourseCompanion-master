@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\addModule.png" />
+    <None Remove="Images\background.jpg" />
+    <None Remove="Images\logo.png" />
+    <None Remove="Images\reader.png" />
+    <None Remove="Images\StartBackground.jpg" />
+    <None Remove="Images\time-management.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.13" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+    <PackageReference Include="SimpleInjector" Version="5.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\addModule.png" />
+    <Resource Include="Images\background.jpg" />
+    <Resource Include="Images\logo.png" />
+    <Resource Include="Images\reader.png" />
+    <Resource Include="Images\StartBackground.jpg" />
+    <Resource Include="Images\time-management.png" />
+  </ItemGroup>
+
+</Project>
